@@ -1,0 +1,13 @@
+				|вставка		|Поиск		| Произвольный доступ
+array			| -				| O(n)		| O(1)
+vector			| O(n)			| O(n)		| O(1)
+list			| O(1)			| O(n)		| O(n)
+forward_list	| O(1)			| O(n)		| O(n)
+multiset		| O(log(n))		| O(log(n))	| O(log(n))
+mulltimap		| O(log(n))		| O(log(n))	| O(log(n))
+deque			| O(m)~1		| O(n)		| O(1)
+set				| O(log(n))		| O(log(n))	| O(log(n))
+map				| O(log(n))		| O(log(n))	| O(log(n))
+
+есть ограничение по памяти - используем deque
+нет ограничений по памяти - используем vector
